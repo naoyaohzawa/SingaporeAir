@@ -7,8 +7,8 @@
 // https://api.aviationstack.com/v1/flights
     // ? access_key = YOUR_ACCESS_KEY ここにkeyを入れる
     
-    // http://api.aviationstack.com/v1/flights?access_key=d2b5ae8338f4deac5ae15440f366ce53&limit=3&airline_iata=SQ&dep_iata=SIN
-    // d2b5ae8338f4deac5ae15440f366ce53
+    // 
+    // 
 
 // // optional parameters: 
 //     & limit = 100（ここで検索フライト数を設定）
@@ -16,7 +16,7 @@
 // 無料だと500フライト per monthしか調べられないから注意！
 
 // グローバル変数を定義
-const apiKey = 'd2b5ae8338f4deac5ae15440f366ce53';
+const apiKey = '';
 const limit = 1;
 const ailineCode = "SQ" //singapore airways
 const airport = "SIN" //changi airport(singapore)
